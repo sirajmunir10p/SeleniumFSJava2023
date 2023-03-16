@@ -30,9 +30,6 @@ public class SauceLabTests extends BaseClass {
         saucelabLoginPage.clickLoginBtn();
 
         System.out.println(sauceLabHomePage.getPageTitle());
-        System.out.println(sauceLabHomePage.getItemName());
-/*        Assert.assertEquals(sauceLabHomePage.getItemName(), "Sauceeee Labs Backpack");
-        sauceLabHomePage.clickAddToCart();*/
     }
 
 /*    @DataProvider(name = "loginTestData")
