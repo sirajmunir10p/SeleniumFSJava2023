@@ -1,5 +1,6 @@
 package connectionString;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,7 +17,8 @@ public class BaseClass {
 
     @BeforeMethod
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "D:\\SeleniumFSJava\\driver\\chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver", "D:\\SeleniumFSJava\\driver\\chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         options = new ChromeOptions();
         options.addArguments("start-maximized");
         // options.addArguments("headless");
