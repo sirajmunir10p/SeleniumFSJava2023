@@ -1,0 +1,10 @@
+objects\dragAndDropPage.class
+tests\DynamicXpath.class
+objects\GoogleSearchPage.class
+connectionString\BaseClass.class
+tests\SauceLabTests.class
+tests\GoogleSearchTests.class
+objects\SauceLabHomePage.class
+objects\SaucelabLoginPage.class
+sampleClass.class
+tests\dragAndDropTest.class

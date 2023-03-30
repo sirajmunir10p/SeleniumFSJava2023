@@ -1,0 +1,100 @@
+{
+  "uid" : "85606b5a8a4b82fb",
+  "name" : "loginWithMultipleUsernamePassword",
+  "fullName" : "tests.SauceLabTests.loginWithMultipleUsernamePassword",
+  "historyId" : "e471d8bfc6ab16861f6f5e19c4d4a48b",
+  "time" : {
+    "start" : 1680174883535,
+    "stop" : 1680174907271,
+    "duration" : 23736
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1680174879325,
+      "stop" : 1680174883528,
+      "duration" : 4203
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1680174907276,
+      "stop" : 1680174907972,
+      "duration" : 696
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.SauceLabTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SauceLabTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithMultipleUsernamePassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Automation Training Tests"
+  }, {
+    "name" : "suite",
+    "value" : "sample Smoke Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.SauceLabTests"
+  }, {
+    "name" : "host",
+    "value" : "LQA-SIRAJMUN"
+  }, {
+    "name" : "thread",
+    "value" : "21256@LQA-SIRAJMUN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "locked_out_user"
+  }, {
+    "name" : "arg1",
+    "value" : "secret_sauce"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85606b5a8a4b82fb.json",
+  "parameterValues" : [ "locked_out_user", "secret_sauce" ]
+}

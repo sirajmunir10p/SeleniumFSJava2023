@@ -1,0 +1,8 @@
+<suite name = "Automation Training Tests">
+    <test name = "sample Smoke Test">
+        <classes>
+            <class name = "tests.SauceLabTests"/>
+            <class name="tests.GoogleSearchTests"/>
+        </classes>
+    </test>
+</suite>

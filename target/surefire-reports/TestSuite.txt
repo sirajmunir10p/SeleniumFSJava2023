@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 125.368 s <<< FAILURE! - in TestSuite
+loginWithValidUsernamePassword(tests.SauceLabTests)  Time elapsed: 22.647 s  <<< FAILURE!
+java.lang.AssertionError: expected [Sauceeee Labs Backpack] but found [Sauce Labs Backpack]
+	at tests.SauceLabTests.loginWithValidUsernamePassword(SauceLabTests.java:22)
+
+searchTest(tests.GoogleSearchTests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [Google] but found [data:,]
+	at tests.GoogleSearchTests.searchTest(GoogleSearchTests.java:11)
+

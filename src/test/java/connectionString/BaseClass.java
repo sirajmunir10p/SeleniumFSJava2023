@@ -1,9 +1,12 @@
 package connectionString;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,14 +20,15 @@ public class BaseClass {
 
     @BeforeMethod
     public void setup() {
-       // System.setProperty("webdriver.chrome.driver", "D:\\SeleniumFSJava\\driver\\chromedriver.exe");
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", "D:\\SeleniumFSJava\\driver\\chromedriver.exe");
+        //WebDriverManager.chromedriver().setup();
         options = new ChromeOptions();
         options.addArguments("start-maximized");
         // options.addArguments("headless");
         options.addArguments("incognito");
+        options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
-        driver.get("https://www.google.com/");
+      //  driver.get("https://www.google.com/");
     }
 
     @AfterMethod

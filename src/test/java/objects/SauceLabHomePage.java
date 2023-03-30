@@ -10,12 +10,14 @@ public class SauceLabHomePage extends BaseClass {
     protected By addToCartElm = By.xpath("//*[@id=\"add-to-cart-sauce-labs-backpack\"]");
 
     public String getItemName() {
-        WebElement backPackLink = setExplicitWait(30).until(ExpectedConditions.visibilityOfElementLocated(backPackElm));
-         return backPackLink.getText();
+        setExplicitWait(30).until(ExpectedConditions.visibilityOfElementLocated(backPackElm));
+        WebElement backPackLink = driver.findElement(backPackElm);
+        return backPackLink.getText();
     }
 
     public void clickAddToCart() {
-        WebElement addToCartBtn = setExplicitWait(30).until(ExpectedConditions.visibilityOfElementLocated(addToCartElm));
+        setExplicitWait(30).until(ExpectedConditions.visibilityOfElementLocated(addToCartElm));
+        WebElement addToCartBtn = driver.findElement(addToCartElm);
         addToCartBtn.click();
     }
 

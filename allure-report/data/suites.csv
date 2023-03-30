@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 30 16:14:43 PKT 2023","Thu Mar 30 16:15:07 PKT 2023","23736","Automation Training Tests","sample Smoke Test","tests.SauceLabTests","tests.SauceLabTests","loginWithMultipleUsernamePassword","loginWithMultipleUsernamePassword",""
+"passed","Thu Mar 30 16:00:36 PKT 2023","Thu Mar 30 16:00:58 PKT 2023","21159","Default Suite","SeleniumFSJava","tests.dragAndDropTest","tests.dragAndDropTest","testDragNDrop","testDragNDrop",""
+"failed","Thu Mar 30 16:15:38 PKT 2023","Thu Mar 30 16:16:02 PKT 2023","23260","Automation Training Tests","sample Smoke Test","tests.SauceLabTests","tests.SauceLabTests","loginWithValidUsernamePassword","loginWithValidUsernamePassword",""
+"passed","Thu Mar 30 16:15:11 PKT 2023","Thu Mar 30 16:15:34 PKT 2023","23213","Automation Training Tests","sample Smoke Test","tests.SauceLabTests","tests.SauceLabTests","loginWithMultipleUsernamePassword","loginWithMultipleUsernamePassword",""
+"failed","Thu Mar 30 16:16:06 PKT 2023","Thu Mar 30 16:16:07 PKT 2023","40","Automation Training Tests","sample Smoke Test","tests.GoogleSearchTests","tests.GoogleSearchTests","searchTest","searchTest",""
+"passed","Thu Mar 30 16:14:12 PKT 2023","Thu Mar 30 16:14:36 PKT 2023","23727","Automation Training Tests","sample Smoke Test","tests.SauceLabTests","tests.SauceLabTests","loginWithMultipleUsernamePassword","loginWithMultipleUsernamePassword",""

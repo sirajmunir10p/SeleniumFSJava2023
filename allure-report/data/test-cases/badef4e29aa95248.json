@@ -1,0 +1,92 @@
+{
+  "uid" : "badef4e29aa95248",
+  "name" : "testDragNDrop",
+  "fullName" : "tests.dragAndDropTest.testDragNDrop",
+  "historyId" : "468ee7e782bf3a65715170e53bfa1d5",
+  "time" : {
+    "start" : 1680173963408,
+    "stop" : 1680173991291,
+    "duration" : 27883
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1680173953747,
+      "stop" : 1680173963031,
+      "duration" : 9284
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1680173991315,
+      "stop" : 1680173992863,
+      "duration" : 1548
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.dragAndDropTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.dragAndDropTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDragNDrop"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SeleniumFSJava"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.dragAndDropTest"
+  }, {
+    "name" : "host",
+    "value" : "LQA-SIRAJMUN"
+  }, {
+    "name" : "thread",
+    "value" : "10824@LQA-SIRAJMUN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "badef4e29aa95248.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,118 @@
+{
+  "468ee7e782bf3a65715170e53bfa1d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afe5607412483511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680174036975,
+        "stop" : 1680174058134,
+        "duration" : 21159
+      }
+    } ]
+  },
+  "d713b32a08fe9aa28348f35653604326" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e45e2eb0a95f6864",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680174911400,
+        "stop" : 1680174934613,
+        "duration" : 23213
+      }
+    } ]
+  },
+  "ad54235f097837bab53334eeeeb098a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ef920da8cd13f19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680174852945,
+        "stop" : 1680174876672,
+        "duration" : 23727
+      }
+    } ]
+  },
+  "e471d8bfc6ab16861f6f5e19c4d4a48b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85606b5a8a4b82fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680174883535,
+        "stop" : 1680174907271,
+        "duration" : 23736
+      }
+    } ]
+  },
+  "eea00c9983a1ff544be525f5efa7a15" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3f8feb22a325a5b",
+      "status" : "failed",
+      "statusDetails" : "expected [Google] but found [data:,]",
+      "time" : {
+        "start" : 1680174966973,
+        "stop" : 1680174967013,
+        "duration" : 40
+      }
+    } ]
+  },
+  "3120ce285cc55173b1af9a945471cf0c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "278f1ef5d2af1211",
+      "status" : "failed",
+      "statusDetails" : "expected [Sauceeee Labs Backpack] but found [Sauce Labs Backpack]",
+      "time" : {
+        "start" : 1680174938969,
+        "stop" : 1680174962229,
+        "duration" : 23260
+      }
+    } ]
+  }
+}

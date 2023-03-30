@@ -1,0 +1,111 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "SeleniumFSJava",
+      "children" : [ {
+        "name" : "tests.dragAndDropTest",
+        "children" : [ {
+          "name" : "testDragNDrop",
+          "uid" : "afe5607412483511",
+          "parentUid" : "f0602466169140f8045189903bcd900c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680174036975,
+            "stop" : 1680174058134,
+            "duration" : 21159
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f0602466169140f8045189903bcd900c"
+      } ],
+      "uid" : "0b3e6c0721a1a1f47b5f9db2eb5aa578"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Automation Training Tests",
+    "children" : [ {
+      "name" : "sample Smoke Test",
+      "children" : [ {
+        "name" : "tests.SauceLabTests",
+        "children" : [ {
+          "name" : "loginWithMultipleUsernamePassword",
+          "uid" : "8ef920da8cd13f19",
+          "parentUid" : "ebd810b3dd525324a21aae3cba685d31",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680174852945,
+            "stop" : 1680174876672,
+            "duration" : 23727
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standard_user", "secret_sauce" ]
+        }, {
+          "name" : "loginWithMultipleUsernamePassword",
+          "uid" : "85606b5a8a4b82fb",
+          "parentUid" : "ebd810b3dd525324a21aae3cba685d31",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680174883535,
+            "stop" : 1680174907271,
+            "duration" : 23736
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "locked_out_user", "secret_sauce" ]
+        }, {
+          "name" : "loginWithMultipleUsernamePassword",
+          "uid" : "e45e2eb0a95f6864",
+          "parentUid" : "ebd810b3dd525324a21aae3cba685d31",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680174911400,
+            "stop" : 1680174934613,
+            "duration" : 23213
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Arsalan", "sdewedsds" ]
+        }, {
+          "name" : "loginWithValidUsernamePassword",
+          "uid" : "278f1ef5d2af1211",
+          "parentUid" : "ebd810b3dd525324a21aae3cba685d31",
+          "status" : "failed",
+          "time" : {
+            "start" : 1680174938969,
+            "stop" : 1680174962229,
+            "duration" : 23260
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ebd810b3dd525324a21aae3cba685d31"
+      }, {
+        "name" : "tests.GoogleSearchTests",
+        "children" : [ {
+          "name" : "searchTest",
+          "uid" : "e3f8feb22a325a5b",
+          "parentUid" : "22b20ee03ef65089464a480d67160292",
+          "status" : "failed",
+          "time" : {
+            "start" : 1680174966973,
+            "stop" : 1680174967013,
+            "duration" : 40
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "22b20ee03ef65089464a480d67160292"
+      } ],
+      "uid" : "9872e6151a6110204421f4d958dbaecf"
+    } ],
+    "uid" : "8aa33122ca85f18dfad8a6ad9ff132f7"
+  } ]
+}

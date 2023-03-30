@@ -32,19 +32,6 @@ public class SauceLabTests extends BaseClass {
         System.out.println(sauceLabHomePage.getPageTitle());
     }
 
-/*    @DataProvider(name = "loginTestData")
-    public Object[][] loginData() {
-        Object[][] data = new Object[2][2];
-        data[0][0] = "standard_user";
-        data[0][1] = "secret_sauce";
-
-        data[1][0] = "siraj.munir";
-        data [1][1] = "sdsds";
-
- *//*       data[2][0] = "Arsalan";
-        data [2][1] = "Arsalan121323";
- *//*       return data;
-    }*/
     @DataProvider(name = "loginData")
     public Object[][] fileNameAndFormat() {
         return new Object[][]{

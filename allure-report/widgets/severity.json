@@ -1,0 +1,61 @@
+[ {
+  "uid" : "278f1ef5d2af1211",
+  "name" : "loginWithValidUsernamePassword",
+  "time" : {
+    "start" : 1680174938969,
+    "stop" : 1680174962229,
+    "duration" : 23260
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3f8feb22a325a5b",
+  "name" : "searchTest",
+  "time" : {
+    "start" : 1680174966973,
+    "stop" : 1680174967013,
+    "duration" : 40
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "85606b5a8a4b82fb",
+  "name" : "loginWithMultipleUsernamePassword",
+  "time" : {
+    "start" : 1680174883535,
+    "stop" : 1680174907271,
+    "duration" : 23736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ef920da8cd13f19",
+  "name" : "loginWithMultipleUsernamePassword",
+  "time" : {
+    "start" : 1680174852945,
+    "stop" : 1680174876672,
+    "duration" : 23727
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afe5607412483511",
+  "name" : "testDragNDrop",
+  "time" : {
+    "start" : 1680174036975,
+    "stop" : 1680174058134,
+    "duration" : 21159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e45e2eb0a95f6864",
+  "name" : "loginWithMultipleUsernamePassword",
+  "time" : {
+    "start" : 1680174911400,
+    "stop" : 1680174934613,
+    "duration" : 23213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

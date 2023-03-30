@@ -1,0 +1,100 @@
+{
+  "uid" : "e45e2eb0a95f6864",
+  "name" : "loginWithMultipleUsernamePassword",
+  "fullName" : "tests.SauceLabTests.loginWithMultipleUsernamePassword",
+  "historyId" : "d713b32a08fe9aa28348f35653604326",
+  "time" : {
+    "start" : 1680174911400,
+    "stop" : 1680174934613,
+    "duration" : 23213
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1680174907976,
+      "stop" : 1680174911392,
+      "duration" : 3416
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1680174934623,
+      "stop" : 1680174935422,
+      "duration" : 799
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.SauceLabTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SauceLabTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithMultipleUsernamePassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Automation Training Tests"
+  }, {
+    "name" : "suite",
+    "value" : "sample Smoke Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.SauceLabTests"
+  }, {
+    "name" : "host",
+    "value" : "LQA-SIRAJMUN"
+  }, {
+    "name" : "thread",
+    "value" : "21256@LQA-SIRAJMUN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Arsalan"
+  }, {
+    "name" : "arg1",
+    "value" : "sdewedsds"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e45e2eb0a95f6864.json",
+  "parameterValues" : [ "Arsalan", "sdewedsds" ]
+}

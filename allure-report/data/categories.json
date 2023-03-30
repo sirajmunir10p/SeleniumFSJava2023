@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [Sauceeee Labs Backpack] but found [Sauce Labs Backpack]",
+      "children" : [ {
+        "name" : "loginWithValidUsernamePassword",
+        "uid" : "278f1ef5d2af1211",
+        "parentUid" : "6bc35403bf02de8b4ed703fdf3fc495c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1680174938969,
+          "stop" : 1680174962229,
+          "duration" : 23260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bc35403bf02de8b4ed703fdf3fc495c"
+    }, {
+      "name" : "expected [Google] but found [data:,]",
+      "children" : [ {
+        "name" : "searchTest",
+        "uid" : "e3f8feb22a325a5b",
+        "parentUid" : "2d7da508751d13d6ba0706039335279b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1680174966973,
+          "stop" : 1680174967013,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d7da508751d13d6ba0706039335279b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
